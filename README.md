@@ -7,14 +7,14 @@ It can be a chore to manage script dependencies as your PHP applications grow la
 
 <buckAngus 08/22/2016>
 I had trouble getting the index.php routing to work.  The following link got me over that hurdle:
-•	http://help.slimframework.com/discussions/problems/10216-beginner-routes-not-working
-•	Added the following to “000-default.conf” (virtual host file):
-  <Directory "/var/www/[your_URI_path to]/public/"> 
-          AllowOverride All 
-          Order allow,deny 
-          Allow from all 
-  </Directory> 
-•	And added the following to my setup script:
-  •	sudo a2enmod rewrite
-  •	Then (of course): sudo service apache2 restart
+  - http://help.slimframework.com/discussions/problems/10216-beginner-routes-not-working
+  - Added the following to “000-default.conf” (virtual host file):
+    - <Directory "/var/www/[your_URI_path to]/public/">
+    -   AllowOverride All 
+    -   Order allow,deny 
+    -   Allow from all 
+    - </Directory> 
+  -And added the following to my setup script:
+    - sudo a2enmod rewrite
+    - Then (of course): sudo service apache2 restart
 </buckAngus>
