@@ -15,7 +15,7 @@ I had trouble getting the index.php routing to work.  The following link got me 
     -   Allow from all 
     - \</Directory\>
   
-  -And added the following to my setup script
+  - And added the following to my setup script
     - sudo a2enmod rewrite
     - Then (of course): sudo service apache2 restart
 </buckAngus>
