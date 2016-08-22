@@ -5,7 +5,8 @@ This is the example code used in the Binpress Tutorial *A PHP bootstrapping cras
 
 It can be a chore to manage script dependencies as your PHP applications grow larger and more complex. Once you've finished this crash course in bootstrapping, you'll have a basic -- yet powerful -- modern application template with simplified script dependency built in.
 
-<buckAngus 08/22/2016>
+Added Note: buckAngus 08/22/2016
+
 I had trouble getting the index.php routing to work.  The following link got me over that hurdle.
   - http://help.slimframework.com/discussions/problems/10216-beginner-routes-not-working
   - Added the following to “000-default.conf” (virtual host file):
@@ -18,4 +19,5 @@ I had trouble getting the index.php routing to work.  The following link got me 
   - And added the following to my setup script
     - sudo a2enmod rewrite
     - Then (of course): sudo service apache2 restart
-</buckAngus>
+
+/Added Note
